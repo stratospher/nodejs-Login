@@ -2,12 +2,10 @@
 ## How to run
 * Download code
 * install packages 
-
 `
 npm install
 `
 * run starting script to start server 
-
 `
 npm run devStart
 `
