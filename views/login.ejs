@@ -1,9 +1,12 @@
 <h1>Login</h1>
-
+<%# flash is going to set a messages variable to all different flash messages and passport is going to set an error message here and if error we render that%>
+<% if(messages.error){ %>
+<%= messages.error %>
+<% } %>
  <form action="/login" method="POST">
 <div>
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" required>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
 </div>
 <div>
     <label for="password">password</label>
